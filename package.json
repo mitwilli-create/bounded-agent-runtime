@@ -1,0 +1,13 @@
+{
+  "name": "bounded-agent-runtime",
+  "version": "0.0.1",
+  "description": "A small agent runtime with boundaries: provider fallback, fail-closed config, and loop caps that log why they stopped.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
